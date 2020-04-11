@@ -14,10 +14,14 @@ function changeMe(arr) {
                obj.age = 2019 - arr[i][3]
            }else{
                obj.age = 'Invalid Birth Year'
-           }
+           } 
+           
         }
         console.log(obj)
         // console.log(i,j)
+    }
+    if(arr.length == 0){
+        console.log('""')
     }
   }
   

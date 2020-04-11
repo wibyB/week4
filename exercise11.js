@@ -24,9 +24,9 @@ function shoppingTime(memberId, money) {
   }else if (memberId == undefined){
     return "Mohon maaf, toko X hanya berlaku untuk member saja"
   }
-  else if(money<50000){
+  else if(money<49000){
     return "Mohon maaf, uang tidak cukup";
-  }else if(memberId !=='' && money>50000){
+  }else if(memberId !=='' && money>=50000){
     for(var key in tokox){
       if(money>=tokox[key]){
         listbarang.push(key);
